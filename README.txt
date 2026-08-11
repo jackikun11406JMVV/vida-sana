@@ -1,1 +1,1 @@
-Vida Sana V4: favicon simplificado nuevo, cabecera vuelve a ser fija/sticky, logo de WhatsApp en la barra superior y número más compacto.
+Vida Sana V7 basada en V6/V4. Nuevo hero centrado en la identidad de Vida Sana con el logo moderno grande, categorías principales y botones. Sección de esoterismo rediseñada con fotografías reales y fieles de minerales, piedras, velas e inciensos.
