@@ -1,1 +1,1 @@
-Vida Sana V2. Incluye logo histórico, Facebook, Instagram, dirección, teléfono, WhatsApp, horario, enlace a Maps y datos estructurados básicos.
+Vida Sana V3: logo reducido y cabecera no fija, favicon, sección de esoterismo, contacto con Instagram/Facebook grandes y visibles, y sección 'Conoce a Juan Manuel y sus libros' con enlace a https://jackikun11406jmvv.github.io/.
