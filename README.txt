@@ -1,1 +1,1 @@
-Vida Sana V3: logo reducido y cabecera no fija, favicon, sección de esoterismo, contacto con Instagram/Facebook grandes y visibles, y sección 'Conoce a Juan Manuel y sus libros' con enlace a https://jackikun11406jmvv.github.io/.
+Vida Sana V4: favicon simplificado nuevo, cabecera vuelve a ser fija/sticky, logo de WhatsApp en la barra superior y número más compacto.
