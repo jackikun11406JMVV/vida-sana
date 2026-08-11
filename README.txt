@@ -1,1 +1,1 @@
-Primera versión de la web de Herbolario Tetería Vida Sana. El dominio personalizado se puede conectar más adelante desde GitHub Pages y cambiando los DNS.
+Vida Sana V2. Incluye logo histórico, Facebook, Instagram, dirección, teléfono, WhatsApp, horario, enlace a Maps y datos estructurados básicos.
