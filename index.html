@@ -52,6 +52,26 @@
       "addressRegion":"Cádiz",
       "addressCountry":"ES"
     },
+    "openingHoursSpecification":[
+      {
+        "@type":"OpeningHoursSpecification",
+        "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],
+        "opens":"10:00",
+        "closes":"13:30"
+      },
+      {
+        "@type":"OpeningHoursSpecification",
+        "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],
+        "opens":"18:00",
+        "closes":"20:30"
+      },
+      {
+        "@type":"OpeningHoursSpecification",
+        "dayOfWeek":["Friday","Saturday"],
+        "opens":"10:00",
+        "closes":"13:30"
+      }
+    ],
     "areaServed":{
       "@type":"City",
       "name":"El Puerto de Santa María"
@@ -222,6 +242,14 @@
       <p class="eyebrow">CONTACTO</p>
       <h2>Ven a conocernos</h2>
       <address class="address"><strong>C/ Rodrigo de Bastidas, 1 · Local 12</strong><br>11500 El Puerto de Santa María, Cádiz</address>
+      <section class="opening-hours" aria-labelledby="horario-title">
+        <h3 id="horario-title">Horario de atención</h3>
+        <dl>
+          <div><dt>Lunes a jueves</dt><dd><time datetime="10:00">10:00</time>–<time datetime="13:30">13:30</time> y <time datetime="18:00">18:00</time>–<time datetime="20:30">20:30</time></dd></div>
+          <div><dt>Viernes y sábado</dt><dd><time datetime="10:00">10:00</time>–<time datetime="13:30">13:30</time> · Tardes cerrado</dd></div>
+          <div><dt>Domingo</dt><dd>Cerrado</dd></div>
+        </dl>
+      </section>
       <div class="contact-grid">
         <a class="contact-item" href="tel:+34956854614"><span class="ci">☎</span><span><small>Teléfono</small><b>956 854 614</b></span></a>
         <a class="contact-item" href="https://wa.me/34645190233"><span class="ci wa-ci"><svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4.1 1.6 5.9L.2 24l6.5-1.7a11.8 11.8 0 0 0 5.6 1.4h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.7-8.4Zm-8.1 18.2h-.1a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.9 1 1-3.8-.2-.4a9.8 9.8 0 1 1 8.6 4.8Zm5.4-7.3c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.5-1.5a9.1 9.1 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.5.3-.5c.1-.2.1-.4 0-.5-.1-.1-.7-1.7-.9-2.3-.3-.7-.5-.6-.7-.6h-.6c-.2 0-.5.1-.8.4-.3.3-1.1 1-1.1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3Z"/></svg></span><span><small>WhatsApp</small><b>645 190 233</b></span></a>

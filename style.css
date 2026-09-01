@@ -766,3 +766,48 @@ img,svg{max-width:100%}
     padding-bottom:90px !important;
   }
 }
+
+/* ===== V11 · Horario de atención ===== */
+.opening-hours{
+  margin:24px 0 20px;
+  padding:20px 22px;
+  background:rgba(255,255,255,.72);
+  border:1px solid #d9d2c4;
+  border-left:4px solid #9c7541;
+}
+.opening-hours h3{
+  margin:0 0 12px;
+  color:#315b43;
+  font:700 24px Georgia,serif;
+}
+.opening-hours dl{
+  margin:0;
+}
+.opening-hours dl>div{
+  display:grid;
+  grid-template-columns:145px 1fr;
+  gap:16px;
+  padding:8px 0;
+  border-top:1px solid #e2ddd3;
+}
+.opening-hours dl>div:first-child{
+  border-top:0;
+}
+.opening-hours dt{
+  font-weight:800;
+  color:#315b43;
+}
+.opening-hours dd{
+  margin:0;
+  color:#53645a;
+  line-height:1.45;
+}
+@media(max-width:520px){
+  .opening-hours{
+    padding:18px;
+  }
+  .opening-hours dl>div{
+    grid-template-columns:1fr;
+    gap:4px;
+  }
+}
