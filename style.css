@@ -83,6 +83,13 @@
   width:100%;
   height:auto;
 }
+.brand img{
+  object-fit:contain;
+  background:#fff;
+}
+.address{
+  font-style:normal;
+}
 .hero-logo-copy{
   position:relative;
   z-index:1;
