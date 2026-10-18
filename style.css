@@ -811,3 +811,118 @@ img,svg{max-width:100%}
     gap:4px;
   }
 }
+
+/* ===== V12 · Portada móvil compacta y página 404 ===== */
+@media(max-width:560px){
+  .hero-logo{
+    padding:18px 14px 32px !important;
+  }
+  .hero-logo-wrap{
+    width:min(168px,46vw);
+    margin-bottom:2px;
+  }
+  .hero-logo-copy{
+    display:flex;
+    flex-direction:column;
+    padding-bottom:0;
+  }
+  .hero-kicker{
+    margin:2px 0 3px;
+    font-size:9px;
+    letter-spacing:1.5px;
+  }
+  .hero-logo h1{
+    margin:5px 0 8px;
+    font-size:clamp(28px,8.5vw,34px);
+    line-height:1.04;
+  }
+  .hero-sub{
+    font-size:13px;
+    line-height:1.5;
+  }
+  .hero-logo-actions{
+    order:1;
+    margin-top:12px;
+    padding-bottom:0;
+  }
+  .hero-logo-actions .btn{
+    padding:12px 16px;
+  }
+  .hero-mini-cats{
+    order:2;
+    margin-top:16px;
+  }
+  .hero-mini-cats a{
+    min-height:58px;
+    padding:8px 6px;
+  }
+  .hero-mini-cats span{
+    margin-bottom:2px;
+    font-size:18px;
+  }
+  .hero-logo + .intro{
+    padding-top:42px;
+  }
+}
+
+@media(max-width:380px){
+  .hero-logo{
+    padding-bottom:28px !important;
+  }
+  .hero-logo-wrap{
+    width:148px;
+  }
+}
+
+.error-page{
+  min-height:100vh;
+  display:grid;
+  place-items:center;
+  padding:32px 18px;
+  background:radial-gradient(circle at 50% 24%,#fff,#f7f3ea 55%,#e9e3d5);
+}
+.error-card{
+  width:min(620px,100%);
+  padding:42px;
+  text-align:center;
+  background:rgba(255,255,255,.84);
+  border:1px solid #ded8cd;
+  box-shadow:0 18px 50px #314b3a17;
+}
+.error-card img{
+  width:150px;
+  height:150px;
+  object-fit:contain;
+}
+.error-code{
+  margin:12px 0 4px;
+  color:#9c7541;
+  font-weight:900;
+  letter-spacing:3px;
+}
+.error-card h1{
+  margin:8px 0 12px;
+  color:#315b43;
+  font:clamp(34px,7vw,52px)/1.05 Georgia,serif;
+}
+.error-card p{
+  margin:0 auto;
+  max-width:490px;
+  color:#647066;
+  line-height:1.7;
+}
+.error-actions{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:18px;
+}
+.error-actions .btn{
+  margin:0;
+}
+@media(max-width:520px){
+  .error-card{padding:30px 20px}
+  .error-card img{width:120px;height:120px}
+  .error-actions{display:grid}
+}

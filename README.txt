@@ -1,1 +1,1 @@
-Vida Sana V10 basada en V9. Corrige el pequeño solapamiento del final del hero en móvil aumentando el espacio inferior, forzando altura automática y separando la siguiente sección para que ningún botón o texto quede oculto.
+Vida Sana V12. Compacta la portada móvil para mostrar antes el contenido principal, añade mensajes iniciales a WhatsApp e incorpora una página 404 personalizada.
